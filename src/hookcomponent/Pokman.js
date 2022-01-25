@@ -36,7 +36,7 @@ const Pokman=()=>{
                                 <li  className='col col-1'><Type type={item.type}></Type></li>
                                 <li  className='col col-1'>{item.height}</li>
                                 <li  className='col col-1'>{item.weight}</li>
-                                <li  className='col col-1'><Weaknesses weaknesses={item.Weaknesses} ></Weaknesses></li>
+                                <li  className='col col-1'><Weaknesses weaknesses={item.weaknesses} ></Weaknesses></li>
                                 <li  className='col col-1'><Nextevolution nextevolution={item.next_evolution} ></Nextevolution></li>
                         </ul>
                         )
