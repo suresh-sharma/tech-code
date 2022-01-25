@@ -6,8 +6,8 @@ const Weaknesses = ({weaknesses}) => {
         return a.localeCompare(b);
     })
     
-    return (arrType ? arrType.map((item) => {
-        return <span>{item}</span>
+    return (arrType ? arrType.map((item,index) => {
+        return <span>{item}{index<arrType.length-1?'/':''}</span>
     }): (null));
     
 }
