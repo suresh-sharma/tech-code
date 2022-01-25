@@ -16,7 +16,7 @@ const Pokman=()=>{
    },[]);
 
    return (pockman && <div className="container">
-            <h1>Shopping List for Pockman</h1>
+            <h1>List of Pockman</h1>
             <ul className='responsive-table'>
                 <li className='col col-1'>Name</li>
                 <li  className='col col-1'>Number</li>
