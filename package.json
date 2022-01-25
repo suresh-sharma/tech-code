@@ -1,0 +1,49 @@
+{
+  "name": "reactapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.25.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.3",
+    "css-loader": "0.28.7",
+    "fs-extra": "3.0.1",
+    "node-sass": "^4.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
+    "recharts": "^1.0.0-beta.10",
+    "sass-loader": "^6.0.6",
+    "style-loader": "0.19.0",
+    "webpack": "^4.41.0"
+  },
+  "scripts": {
+    "start:dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
